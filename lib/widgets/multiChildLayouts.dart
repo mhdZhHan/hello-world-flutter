@@ -129,3 +129,55 @@ class ColumnWidget extends StatelessWidget {
     );
   }
 }
+
+class ListViewWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      height: 300,
+      color: Colors.greenAccent,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        reverse: true,
+        padding: EdgeInsets.all(10),
+        children: <Widget>[
+          Container(
+            width: 200,
+            height: 100,
+            color: Colors.red,
+            child: Center(
+              child: Text('One'),
+            ),
+          ),
+          Container(
+            width: 200,
+            height: 100,
+            color: Colors.green,
+            child: Center(
+              child: Text('Two'),
+            ),
+          ),
+          Container(
+            width: 200,
+            height: 100,
+            color: Colors.yellow,
+            child: Center(
+              child: Text('Three'),
+            ),
+          ),
+          Container(
+            width: 200,
+            height: 100,
+            color: Colors.black,
+            child: Center(
+                child: Text(
+              'Four',
+              style: TextStyle(color: Colors.white),
+            )),
+          ),
+        ],
+      ),
+    );
+  }
+}
