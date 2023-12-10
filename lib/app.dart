@@ -20,7 +20,8 @@ class App extends StatelessWidget {
         // body: AlignWidget(),
 
         // ===== MULTI CHILD WIDGETS =====
-        body: RowWidget(),
+        // body: RowWidget(),
+        body: ColumnWidget(),
       ),
     );
   }
