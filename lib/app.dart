@@ -22,7 +22,8 @@ class App extends StatelessWidget {
         // ===== MULTI CHILD WIDGETS =====
         // body: RowWidget(),
         // body: ColumnWidget(),
-        body: ListViewWidget(),
+        // body: ListViewWidget(),
+        body: GridViewWidget(),
       ),
     );
   }

@@ -181,3 +181,46 @@ class ListViewWidget extends StatelessWidget {
     );
   }
 }
+
+class GridViewWidget extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.height,
+      color: Colors.greenAccent,
+      child: GridView.count(
+        crossAxisCount: 2,
+        // scrollDirection: Axis.horizontal,
+        children: <Widget>[
+          // width and height of its children is based on screen
+          Container(
+            color: Colors.red,
+            child: Center(
+              child: Text('One'),
+            ),
+          ),
+          Container(
+            color: Colors.green,
+            child: Center(
+              child: Text('Two'),
+            ),
+          ),
+          Container(
+            color: Colors.yellow,
+            child: Center(
+              child: Text('Three'),
+            ),
+          ),
+          Container(
+            color: Colors.black,
+            child: Center(
+                child: Text(
+              'Four',
+              style: TextStyle(color: Colors.white),
+            )),
+          ),
+        ],
+      ),
+    );
+  }
+}
