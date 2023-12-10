@@ -11,12 +11,20 @@ class RowWidget extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       color: Colors.greenAccent,
       child: Row(
-        // mainAxisAlignment: MainAxisAlignment.start, // default
+        // mainAxisAlignment: MainAxisAlignment.start, /// default
         // mainAxisAlignment: MainAxisAlignment.center,
         // mainAxisAlignment: MainAxisAlignment.end,
         // mainAxisAlignment: MainAxisAlignment.spaceAround,
         // mainAxisAlignment: MainAxisAlignment.spaceBetween,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+        // crossAxisAlignment: CrossAxisAlignment.center,
+        // crossAxisAlignment: CrossAxisAlignment.start,
+        // crossAxisAlignment: CrossAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+
+        // textDirection: TextDirection.ltr, /// default
+        textDirection: TextDirection.rtl,
 
         children: <Widget>[
           Container(
