@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // import './widgets/container.dart';
-// import './widgets/sigleChildLayouts.dart';
+// import './widgets/singleChildLayouts.dart';
 // import './widgets/multiChildLayouts.dart';
 // import './widgets/stackWidget.dart';
 // import './widgets/imageWidget.dart';
