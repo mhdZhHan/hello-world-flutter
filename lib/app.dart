@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 // import './widgets/sigleChildLayouts.dart';
 // import './widgets/multiChildLayouts.dart';
 // import './widgets/stackWidget.dart';
-import './widgets/imageWidget.dart';
+// import './widgets/imageWidget.dart';
+import './widgets/buttons.dart';
 
 class App extends StatelessWidget {
   @override
@@ -28,7 +29,9 @@ class App extends StatelessWidget {
         // body: GridViewWidget(),
         // body: StackWidget(),
         // body: StackWidgetWithPositioned(),
-        body: ImageWidget(),
+        // body: ImageWidget(),
+        // body: TextButtonWidget(),
+        body: OutlinedButtonWidget(),
       ),
     );
   }
