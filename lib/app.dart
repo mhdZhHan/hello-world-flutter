@@ -89,7 +89,24 @@ class App extends StatelessWidget {
         // body: StackWidgetWithPositioned(),
         // body: ImageWidget(),
         // body: TextButtonWidget(),
-        body: OutlinedButtonWidget(),
+        // body: OutlinedButtonWidget(),
+
+        // ====== Text widget =============
+        body: Center(
+          child: Text(
+            "Hello World",
+            style: TextStyle(
+              color: Colors.white,
+              backgroundColor: Colors.black,
+              fontSize: 35,
+              fontWeight: FontWeight.w700,
+              fontStyle: FontStyle.italic,
+              letterSpacing: 2,
+              wordSpacing: 4,
+              fontFamily: "Manjari Regular",
+            ),
+          ),
+        ),
       ),
     );
   }
