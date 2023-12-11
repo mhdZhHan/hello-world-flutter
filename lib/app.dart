@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 // import './widgets/container.dart';
 // import './widgets/sigleChildLayouts.dart';
-import './widgets/multiChildLayouts.dart';
+// import './widgets/multiChildLayouts.dart';
+// import './widgets/stackWidget.dart';
+import './widgets/imageWidget.dart';
 
 class App extends StatelessWidget {
   @override
@@ -23,7 +25,10 @@ class App extends StatelessWidget {
         // body: RowWidget(),
         // body: ColumnWidget(),
         // body: ListViewWidget(),
-        body: GridViewWidget(),
+        // body: GridViewWidget(),
+        // body: StackWidget(),
+        // body: StackWidgetWithPositioned(),
+        body: ImageWidget(),
       ),
     );
   }
